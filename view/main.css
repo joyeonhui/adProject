@@ -1,0 +1,82 @@
+.simulatorContainer{
+	width: 1024px;
+	display: block;
+	margin: 30px 30px 0px 100px;
+	text-align : center;
+}
+.simulatorFullScreen{
+	border : 8px solid #cbd6e2;
+	border-radius : 20px 20px 20px 20px;
+	height: auto;
+	display:block;
+}
+.toolbar{
+	display : block;
+	line-height:50px;
+	text-align: left;
+	padding: 4px 8px 4px 16px;
+	border-bottom : 8px solid #cbd6e2;
+	border-radius: 20px 20px 0px 0px;
+	background-color : #f6f7fb;
+}
+.mediaElement{
+	display : block;
+	max-width: 100%;
+	width : auto;
+	max-height: 100%;
+	height : auto;
+	margin : 30px;
+	text-align:center;
+	white-space:nowrap;
+	overflow :auto;
+	overflow-y : hidden;
+}
+.toolbar-button{
+	display: inline-block;
+	height:25px;
+	width:25px;
+	margin-right:7.2px;
+	border : 2px solid #cbd6e2;
+	border-radius : 50%;
+	margin-top : 4px;
+	margin-bottom : 4px;
+	background-color :#cbd6e2;
+	margin-left : 10px;
+}
+div#gallery_wrap_container .mediaElement_palylist{
+	display : block;
+	max-width: 100%;
+	width: auto;
+	margin: 30px auto;
+	text-align: left;
+	white-space : nowrap;
+	overflow : auto;
+	overflow-y:hidden;
+}
+.images{
+	width: 30%;
+}
+.list-container{
+	position: fixed;
+	top: 0px;
+	right: 0;
+  width: calc(100% - 1024px - 130px);
+	height: 100vh;
+	overflow-y: auto;
+}
+.list-container ul{
+	width: 95%;
+	max-width: 300px;
+	margin: 38px 0 0 0;
+	list-style-type: none;
+}
+.list-container li{
+	margin-bottom: 15px;
+}
+.list-container img{
+	margin: auto;
+	width: 100%;
+}
+.list-container p{
+	margin: 0;
+}
