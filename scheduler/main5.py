@@ -98,4 +98,5 @@ class Ui_MainWindow(object):
         self.btn1.setText(_translate("MainWindow", "Set"))
         self.btn2.setText(_translate("MainWindow", "Sst"))
         self.nextBtn.setText(_translate("MainWindow", "Next"))
+        
 
